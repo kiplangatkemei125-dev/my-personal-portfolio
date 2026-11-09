@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal portfolio of Enock Kiplangat, an aspiring software developer and AI data annotation specialist in Kenya.">
+  <title>Enock Kiplangat | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="home" class="site-header">
+    <a href="#home" aria-label="Enock Kiplangat portfolio home">Enock Kiplangat</a>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="intro-heading">
+      <img
+        src="images/enock-profile.jpg"
+        alt="Profile portrait of Enock Kiplangat"
+        width="240"
+        height="240"
+      >
+      <p>Hello, I'm</p>
+      <h1 id="intro-heading">Enock Kiplangat</h1>
+      <h2>Aspiring Software Developer | AI Data Annotation Specialist | Technology Enthusiast</h2>
+      <p>
+        I am a software development student in Kenya interested in programming,
+        artificial intelligence, and digital innovation. I enjoy learning new
+        technologies and building practical skills to solve real-world problems.
+      </p>
+      <p>
+        <a href="#projects">Explore my projects</a>
+        <a href="#contact">Get in touch</a>
+      </p>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>
+        I completed my Kenya Certificate of Secondary Education at Litein High
+        School in 2025, achieving a mean grade of B Plain. I am currently
+        pursuing a Bachelor of Science in Software Development at KCA University.
+      </p>
+      <p>
+        I am improving my technical abilities through academic learning,
+        independent practice, and hands-on projects. I value curiosity,
+        consistency, and learning from challenges.
+      </p>
+
+      <h3>Education</h3>
+      <table>
+        <caption>My education background</caption>
+        <thead>
+          <tr>
+            <th scope="col">Institution</th>
+            <th scope="col">Qualification</th>
+            <th scope="col">Status / Result</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>KCA University</td>
+            <td>Bachelor of Science in Software Development</td>
+            <td>Currently pursuing</td>
+          </tr>
+          <tr>
+            <td>Litein High School</td>
+            <td>Kenya Certificate of Secondary Education (KCSE)</td>
+            <td>Completed 2025 · B Plain</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Languages</h3>
+      <ul>
+        <li>English — Advanced</li>
+        <li>Kiswahili — Advanced</li>
+        <li>Kalenjin — Advanced</li>
+      </ul>
+
+      <h3>Professional Interests</h3>
+      <ol>
+        <li>Software development and engineering</li>
+        <li>Artificial intelligence and data annotation</li>
+        <li>Web design and digital innovation</li>
+      </ol>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Technical Skills</h2>
+      <p>I am developing these skills through coursework and independent practice:</p>
+      <ul class="skills-list">
+        <li><strong>HTML:</strong> Basic web page structure and content.</li>
+        <li><strong>CSS:</strong> Styling and formatting web pages.</li>
+        <li><strong>Computer Applications:</strong> General computer literacy.</li>
+        <li><strong>GitHub:</strong> Familiarity with code repositories and project management.</li>
+        <li><strong>Web Development:</strong> Learning to create and structure websites.</li>
+        <li><strong>AI Data Annotation:</strong> Developing skills in data labeling and AI training workflows.</li>
+      </ul>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <p>These are proposed projects I plan to build as I grow my skills:</p>
+
+      <article class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>A website introducing me, my education, skills, and contact details, built with HTML and CSS.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>Student Study Planner</h3>
+        <p>A web app concept for organizing course tasks, deadlines, and study sessions.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>AI Data Annotation Demo</h3>
+        <p>A project concept showing how sample text or images can be labeled for an AI training workflow.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>
+        I am based in Kenya and interested in learning, collaboration, and
+        meaningful technology projects.
+      </p>
+
+      <address>
+        Enock Kiplangat<br>
+        Kenya<br>
+        Email:
+        <a href="mailto:kiplangatkemei125@gmail.com">kiplangatkemei125@gmail.com</a><br>
+        Phone: <a href="tel:+254794938745">+254 794 938 745</a>
+      </address>
+
+      <h3>Send me a message</h3>
+      <form class="contact-form" action="#" method="post">
+        <p>
+          <label for="name">Your name</label><br>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </p>
+
+        <p>
+          <label for="email">Your email</label><br>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </p>
+
+        <p>
+          <label for="subject">Subject</label><br>
+          <input type="text" id="subject" name="subject" required>
+        </p>
+
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </p>
+
+        <button class="button" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Enock Kiplangat. All rights reserved.</p>
+    <p><a href="#home">Back to top</a></p>
+  </footer>
+</body>
+</html>
